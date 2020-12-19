@@ -1,0 +1,183 @@
+{
+  "contractName": "MarkTokenSale",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/marcos.miranda/Documents/GitHub/MarkToken/contracts/MarkTokenSale.sol\":\"MarkTokenSale\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/marcos.miranda/Documents/GitHub/MarkToken/contracts/MarkTokenSale.sol\":{\"keccak256\":\"0x72bb32577fbc5e16dd85eaaa3e7dc7d423b457e9a4a5ef4428214a2a6e0caaec\",\"urls\":[\"bzz-raw://2be1fa769d08fc6a2251f915a7c402a89b4128ae1bb0fd072d7f4097179300ef\",\"dweb:/ipfs/QmVKEMVuNUSDCCtMoGLXJYRNemahUgYXDUToYpjZY54XCV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582095630bd66a5a961af4893faed814701d42273cdd7fd93a48f851cac8e27416af64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582095630bd66a5a961af4893faed814701d42273cdd7fd93a48f851cac8e27416af64736f6c63430005100032",
+  "sourceMap": "69:75:1:-;;;101:40;8:9:-1;5:2;;;30:1;27;20:12;5:2;101:40:1;69:75;;;;;;",
+  "deployedSourceMap": "69:75:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.8.0;\r\n\r\ncontract MarkTokenSale {\r\n\r\n    constructor () public {\r\n        \r\n    }\r\n}",
+  "sourcePath": "C:/Users/marcos.miranda/Documents/GitHub/MarkToken/contracts/MarkTokenSale.sol",
+  "ast": {
+    "absolutePath": "/C/Users/marcos.miranda/Documents/GitHub/MarkToken/contracts/MarkTokenSale.sol",
+    "exportedSymbols": {
+      "MarkTokenSale": [
+        192
+      ]
+    },
+    "id": 193,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 187,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 192,
+        "linearizedBaseContracts": [
+          192
+        ],
+        "name": "MarkTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 190,
+              "nodeType": "Block",
+              "src": "123:18:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 191,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:2:1"
+            },
+            "returnParameters": {
+              "id": 189,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:0:1"
+            },
+            "scope": 192,
+            "src": "101:40:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 193,
+        "src": "69:75:1"
+      }
+    ],
+    "src": "33:111:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/marcos.miranda/Documents/GitHub/MarkToken/contracts/MarkTokenSale.sol",
+    "exportedSymbols": {
+      "MarkTokenSale": [
+        192
+      ]
+    },
+    "id": 193,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 187,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 192,
+        "linearizedBaseContracts": [
+          192
+        ],
+        "name": "MarkTokenSale",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 190,
+              "nodeType": "Block",
+              "src": "123:18:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 191,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "113:2:1"
+            },
+            "returnParameters": {
+              "id": 189,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "123:0:1"
+            },
+            "scope": 192,
+            "src": "101:40:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 193,
+        "src": "69:75:1"
+      }
+    ],
+    "src": "33:111:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-18T23:34:17.018Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
